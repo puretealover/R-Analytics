@@ -3,7 +3,7 @@ type_of_home <- matrix(c(97, 83, 80, 38, 18, 44), byrow=TRUE, nrow=2)
 type_of_home                       
 rownames(type_of_home) <- c('yes', 'no')
 type_of_home
-colnames(type_of_home) <- c('c','log','A-F')typ
+colnames(type_of_home) <- c('c','log','A-F')
 type_of_home
 chisq.test(x=type_of_home)
 
